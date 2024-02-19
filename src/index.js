@@ -7,7 +7,7 @@ import MagicString from 'magic-string';
 import { createFilter } from 'rollup-pluginutils';
 
 const moduleIdRegex = /moduleId\s*:(.*)/g;
-const componentRegex = /@Component\(\s?{([\s\S]*)}\s?\)$|type:\s?Component,\s?args:\s?\[\s?{([\s\S]*)},\s?\]/gm;
+const componentRegex = /Component\({([\s\S]*?)\}\)/gm;
 const commentRegex = /\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm; // http://www.regextester.com/?fam=96247
 const templateUrlRegex = /templateUrl\s*:(.*)/g;
 const styleUrlsRegex = /styleUrls\s*:(\s*\[[\s\S]*?\])/g; // http://www.regextester.com/?fam=98594

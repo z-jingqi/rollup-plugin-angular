@@ -7,7 +7,7 @@ export default {
   plugins: [ buble() ],
   external: external,
   targets: [
-    { dest: 'dist/rollup-plugin-angular.js', format: 'cjs' },
-    { dest: 'dist/rollup-plugin-angular.esm.js', format: 'es' }
+    { dest: 'dist/rollup-coeus-angular-modules.js', format: 'cjs' },
+    { dest: 'dist/rollup-coeus-angular-modules.esm.js', format: 'es' }
   ]
 };
