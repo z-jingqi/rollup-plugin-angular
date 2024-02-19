@@ -1,6 +1,6 @@
 {
   "name": "rollup-coeus-angular-modules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Angular2 template and styles inliner",
   "main": "dist/rollup-coeus-angular-modules.js",
   "module": "dist/rollup-coeus-angular-modules.esm.js",
