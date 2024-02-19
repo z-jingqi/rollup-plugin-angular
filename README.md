@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/cebor/rollup-plugin-angular.svg?branch=master)](https://travis-ci.org/cebor/rollup-plugin-angular)
-
-# rollup-plugin-angular
+# rollup-coeus-angular-modules
 Angular2 template and styles inliner for rollup
 
 ## Looking for new maintainer
@@ -8,13 +6,13 @@ I have no time to maintain this plugin anymore. So im looking for a new Maintain
 
 ## Installation
 ```bash
-npm install --save-dev rollup-plugin-angular
+npm install --save-dev rollup-coeus-angular-modules
 ```
 
 ## Example
 ```javascript
 // rollup.config.js
-import angular from 'rollup-plugin-angular';
+import angular from 'rollup-coeus-angular-modules';
 import typescript from 'rollup-plugin-typescript';
 import alias from 'rollup-plugin-alias';
 import nodeResolve from 'rollup-plugin-node-resolve';
@@ -58,7 +56,7 @@ The following example shows how you can use sass, clean-css (for css minificatio
 
 ```javascript
 // rollup.config.js
-import angular from 'rollup-plugin-angular';
+import angular from 'rollup-coeus-angular-modules';
 import typescript from 'rollup-plugin-typescript';
 import nodeResolve from 'rollup-plugin-node-resolve';
 import sass from 'node-sass';
